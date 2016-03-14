@@ -6,6 +6,8 @@
 
 /* dropdown example: http://getbootstrap.com/components/#dropdowns */
 .dropdown-toggle:not([aria-haspopup="true"]):after,
+.dropdown-toggle:not([id]):after,
+.dropdown-menu:not([aria-labelledby]):after,
 
 /* tabs example: http://codepen.io/svinkle/pen/edmDF */
 .nav-tabs:not([role="tablist"]):after,
@@ -68,6 +70,8 @@
 }
 
 .modal:not([aria-labelledby]):after,
+.dropdown-toggle:not([id]):after,
+.dropdown-menu:not([aria-labelledby]):after,
 .nav-tabs > a:not([id]):after,
 .nav-pills > a:not([id]):after,
 .tab-pane:not([aria-labeledby]):after,
