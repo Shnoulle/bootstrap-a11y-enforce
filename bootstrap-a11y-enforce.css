@@ -117,6 +117,7 @@
     content: 'ERROR: missing role' !important;
 }
 
+/* overrides */
 .disabled[disabled]:after,
 .modal([role="alertdialog"]):after {
     display: none !important;
